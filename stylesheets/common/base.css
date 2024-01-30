@@ -1,1 +1,11 @@
 /* Base 스타일 작성 */
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
