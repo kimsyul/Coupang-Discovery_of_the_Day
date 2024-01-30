@@ -81,9 +81,11 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px 28px;
 }
 
+.big>a {
+    padding: 20px 28px;
+}
 
 .small {
     border: 1px solid var(--gray-500);
@@ -93,7 +95,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 14px 24.99px 14px 23px;
 }
 
+.small>a {
+    padding: 14px 24.99px 14px 23px;
+}
 
