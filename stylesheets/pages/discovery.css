@@ -101,3 +101,10 @@ header {
     padding: 14px 24.99px 14px 23px;
 }
 
+.wrap #today .content div:hover {
+    border: 1px solid var(--blue-600);
+}
+
+.wrap #today .content div:focus {
+    border: 1px solid var(--blue-600);
+}

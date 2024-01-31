@@ -1,7 +1,75 @@
 /* Theme 스타일 작성 */
 :root {
     --black:#181818;
-    --gray-600:#AAA9A9;
+    --white:#FFFFFF;
+
+    --gray-100:#F3F3F3;
+    --gray-200:#E7E7E7;
+    --gray-300:#DCDCDC;
+    --gray-400:#D0D0D0;
     --gray-500:#C4C4C4;
-    --white:#ffffff;
+    --gray-600:#AAA9A9;
+    --gray-700:#767676;
+    --gray-800:#4E4E4E;
+    --gray-900:#272727;
+    
+    --blue-100:#CCEAFA;
+    --blue-200:#65CDE3;
+    --blue-300:#61BFE6;
+    --blue-400:#33ABE9;
+    --blue-500:#0096E4;
+    --blue-600:#0074E9;
+    --blue-700:#005A89;
+    --blue-800:#003C5B;
+    --blue-900:#001E2E;
+
+    --red-100:#FAD3D6;
+    --red-200:#F5A7AC;
+    --red-300:#EF7B83;
+    --red-400:#EA4F59;
+    --red-500:#E52330;
+    --red-600:#B71C26;
+    --red-700:#89151D;
+    --red-800:#5C0E13;
+    --red-900:#2E070A;
+
+    --yellow-100:#FEF2D9;
+    --yellow-200:#FDE4B4;
+    --yellow-300:#FDD78E;
+    --yellow-400:#FCC969;
+    --yellow-500:#FBBC43;
+    --yellow-600:#FF9B05;
+    --yellow-700:#977128;
+    --yellow-800:#644B1B;
+    --yellow-900:#32260D;
+
+    --green-100:#F4F5D2;
+    --green-200:#E9EBA5;
+    --green-300:#DDE177;
+    --green-400:#D2D74A;
+    --green-500:#C7CD1D;
+    --green-600:#9FA417;
+    --green-700:#777B11;
+    --green-800:#50520C;
+    --green-900:#282906;
+
+    --brown-100:#DFD5D4;
+    --brown-200:#BFABA9;
+    --brown-300:#9D7A6D;
+    --brown-400:#7E5852;
+    --brown-500:#5E2E27;
+    --brown-600:#4B251F;
+    --brown-700:#381C17;
+    --brown-800:#261210;
+    --brown-900:#130908;
+
+    --purple-100:#DFD8F2;
+    --purple-200:#BEB0E6;
+    --purple-300:#9E89D9;
+    --purple-400:#7D61CD;
+    --purple-500:#5D3AC0;
+    --purple-600:#4A2E9A;
+    --purple-700:#382373;
+    --purple-800:#25174D;
+    --purple-900:#130C26;
 }
