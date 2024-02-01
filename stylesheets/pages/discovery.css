@@ -36,14 +36,14 @@ header {
     color: var(--black);
 }
 
-.title h3 {
+.title span {
     font-size: 16px;
     font-weight: bold;
-    color:var(--gray-600);
+    color: var(--gray-600);
     margin: 0 10px;
 }
 
-.title h4 {
+.title h3 {
     font-size: 16px;
     font-weight: 500;
     line-height: 115%;
@@ -59,14 +59,15 @@ header {
     height: 100%;
 }
 
-.big,.small {
+.big,
+.small {
     float: left;
     margin-right: 16px;
     margin-bottom: 16px;
 }
 
 .no-right {
-    margin-right: 0px;    
+    margin-right: 0px;
 }
 
 .no-bot {
@@ -83,7 +84,7 @@ header {
     align-items: center;
 }
 
-.big>a {
+.big > a {
     padding: 20px 28px;
 }
 
@@ -97,7 +98,7 @@ header {
     align-items: center;
 }
 
-.small>a {
+.small > a {
     padding: 14px 24.99px 14px 23px;
 }
 
