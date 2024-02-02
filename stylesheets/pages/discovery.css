@@ -64,6 +64,7 @@ header {
     float: left;
     margin-right: 16px;
     margin-bottom: 16px;
+    position: relative;
 }
 
 .no-right {
@@ -102,10 +103,47 @@ header {
     padding: 14px 24.99px 14px 23px;
 }
 
-.wrap #today .content div:hover {
+/* 구매하기 */
+.content-bt {
+    width: 42px;
+    height: 42px;
+    background-color: rgba(0, 0, 0, 0.2);
+
+    position: absolute;
+    z-index: 10;
+    top: 248px;
+    left: 20px;
+    transition: background-color 0.5s;
+}
+
+.content-bt svg {
+    position: absolute;
+    top: 16px;
+    right: 18px;
+}
+
+/* hover, focus */
+
+.wrap #today .content div:hover,
+.wrap #today .content div:focus-within {
     border: 1px solid var(--blue-600);
 }
 
-.wrap #today .content div:focus {
-    border: 1px solid var(--blue-600);
+.wrap #today .content div:hover .content-bt,
+.wrap #today .content div:focus-within .content-bt {
+    width: 112px;
+    background-color: var(--blue-600);
+}
+
+.wrap #today .content div:hover .content-bt::before,
+.wrap #today .content div:focus-within .content-bt::before {
+    content: "구매하기";
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+
+    position: absolute;
+    top: 12px;
+    left: 20px;
 }
