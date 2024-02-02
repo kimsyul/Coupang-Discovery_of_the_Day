@@ -1,23 +1,19 @@
 /* CSS 작성 */
 .wrap {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 242px;
+    width: 1020px;
 }
 
 /* 로고 */
 header {
     margin-bottom: 48px;
-    width: 1020px;
     height: 40px;
 }
 
 /* 오늘의 발견 */
 #today {
-    width: 1020px;
     height: 1010px;
     padding-top: 8px;
 }
