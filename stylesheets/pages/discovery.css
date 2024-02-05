@@ -99,6 +99,10 @@ header {
     padding: 14px 24.99px 14px 23px;
 }
 
+.content::after {
+    clear: both;
+}
+
 /* 구매하기 */
 .content-bt {
     width: 42px;
