@@ -109,7 +109,7 @@ header {
     z-index: 10;
     top: 248px;
     left: 20px;
-    transition: background-color 0.5s;
+    transition: background-color 1s;
 }
 
 .content-bt svg {
@@ -129,6 +129,7 @@ header {
 .wrap #today .content div:focus-within .content-bt {
     width: 112px;
     background-color: var(--blue-600);
+    color: var(--white);
 }
 
 .wrap #today .content div:hover .content-bt::before,
